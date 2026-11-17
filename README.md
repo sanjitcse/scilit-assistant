@@ -19,7 +19,7 @@ The core library is **pure standard library** (no dependencies). Real LLM calls 
 ## Quickstart
 
 ```bash
-git clone <this repo> && cd scilit-assistant
+git clone https://github.com/sanjitcse/scilit-assistant && cd scilit-assistant
 python -m unittest discover -s tests -t .          # 30 tests, no network (or: pip install -e ".[dev]" && pytest)
 PYTHONPATH=src python -m scilit ask "What IoU does GlacierNet achieve on AlpineSat-12k?"
 PYTHONPATH=src python -m scilit extract P002
@@ -97,7 +97,3 @@ scripts/      make_sample_data.py (regenerates corpus + gold)    tests/  30 test
   output is treated as abstention rather than a guess.
 - The offline stub and the Anthropic client implement one interface (`rewrite`, `answer`, `entails`, `extract`,
   `closed_book`), so swapping in another provider means implementing five methods in `llm.py`.
-
-## License
-
-MIT. Replace the placeholder name in `LICENSE`.
