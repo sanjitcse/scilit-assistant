@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scilit"
+version = "0.1.0"
+description = "LLM research assistant for scientific literature: retrieval, extraction, verification, evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []  # core library is pure standard library
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.40"]
+dense = ["sentence-transformers>=3.0"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+scilit = "scilit.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]

@@ -1,0 +1,11 @@
+{
+  "_comment": "Reference config. The CLI/eval read these values from PipelineConfig defaults in src/scilit/pipeline.py; keep the two in sync and commit run manifests (experiments/<run>/results.json).",
+  "k": 5,
+  "candidate_k": 20,
+  "mode": "hybrid",
+  "rewrite": true,
+  "rerank": true,
+  "verify": true,
+  "max_retries": 1,
+  "llm": { "backend": "anthropic", "model_env": "SCILIT_MODEL", "temperature": 0 }
+}

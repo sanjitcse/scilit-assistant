@@ -1,0 +1,43 @@
+{"question": "What IoU does GlacierNet achieve on AlpineSat-12k?", "answerable": true, "gold_keywords": ["0.81"], "evidence": ["P001:results"], "type": "result", "id": "Q001"}
+{"question": "Which dataset was GlacierNet trained on?", "answerable": true, "gold_keywords": ["AlpineSat-12k"], "evidence": ["P001:methods"], "type": "method", "id": "Q002"}
+{"question": "What limitation of GlacierNet do the authors report?", "answerable": true, "gold_keywords": ["cloud cover"], "evidence": ["P001:limitations"], "type": "limitation", "id": "Q003"}
+{"question": "What RMSD does PolyFold-Lite achieve on LoopBench?", "answerable": true, "gold_keywords": ["1.9 Å"], "evidence": ["P002:results"], "type": "result", "id": "Q004"}
+{"question": "Which dataset was PolyFold-Lite trained on?", "answerable": true, "gold_keywords": ["LoopBench"], "evidence": ["P002:methods"], "type": "method", "id": "Q005"}
+{"question": "What limitation of PolyFold-Lite do the authors report?", "answerable": true, "gold_keywords": ["20 residues"], "evidence": ["P002:limitations"], "type": "limitation", "id": "Q006"}
+{"question": "What macro F1 does CardioTrace achieve on HeartWave-5?", "answerable": true, "gold_keywords": ["0.93"], "evidence": ["P003:results"], "type": "result", "id": "Q007"}
+{"question": "Which dataset was CardioTrace trained on?", "answerable": true, "gold_keywords": ["HeartWave-5"], "evidence": ["P003:methods"], "type": "method", "id": "Q008"}
+{"question": "What limitation of CardioTrace do the authors report?", "answerable": true, "gold_keywords": ["single hospital"], "evidence": ["P003:limitations"], "type": "limitation", "id": "Q009"}
+{"question": "What R2 does SoilSense achieve on SoilSpec-Europe?", "answerable": true, "gold_keywords": ["0.87"], "evidence": ["P004:results"], "type": "result", "id": "Q010"}
+{"question": "Which dataset was SoilSense trained on?", "answerable": true, "gold_keywords": ["SoilSpec-Europe"], "evidence": ["P004:methods"], "type": "method", "id": "Q011"}
+{"question": "What limitation of SoilSense do the authors report?", "answerable": true, "gold_keywords": ["lab-dried"], "evidence": ["P004:limitations"], "type": "limitation", "id": "Q012"}
+{"question": "What accuracy does KernelTab achieve on TabSmall-40?", "answerable": true, "gold_keywords": ["0.76"], "evidence": ["P005:results"], "type": "result", "id": "Q013"}
+{"question": "Which dataset was KernelTab trained on?", "answerable": true, "gold_keywords": ["TabSmall-40"], "evidence": ["P005:methods"], "type": "method", "id": "Q014"}
+{"question": "What limitation of KernelTab do the authors report?", "answerable": true, "gold_keywords": ["cubically"], "evidence": ["P005:limitations"], "type": "limitation", "id": "Q015"}
+{"question": "What mAP does ReefWatch achieve on ReefDrone-3k?", "answerable": true, "gold_keywords": ["0.69"], "evidence": ["P006:results"], "type": "result", "id": "Q016"}
+{"question": "Which dataset was ReefWatch trained on?", "answerable": true, "gold_keywords": ["ReefDrone-3k"], "evidence": ["P006:methods"], "type": "method", "id": "Q017"}
+{"question": "What limitation of ReefWatch do the authors report?", "answerable": true, "gold_keywords": ["turbid"], "evidence": ["P006:limitations"], "type": "limitation", "id": "Q018"}
+{"question": "What top-1 accuracy does SynthPlan achieve on USPTO-Mini?", "answerable": true, "gold_keywords": ["52.4%"], "evidence": ["P007:results"], "type": "result", "id": "Q019"}
+{"question": "Which dataset was SynthPlan trained on?", "answerable": true, "gold_keywords": ["USPTO-Mini"], "evidence": ["P007:methods"], "type": "method", "id": "Q020"}
+{"question": "What limitation of SynthPlan do the authors report?", "answerable": true, "gold_keywords": ["stereochemistry"], "evidence": ["P007:limitations"], "type": "limitation", "id": "Q021"}
+{"question": "What MAE does GustCast achieve on GustArchive-DE?", "answerable": true, "gold_keywords": ["1.4 m/s"], "evidence": ["P008:results"], "type": "result", "id": "Q022"}
+{"question": "Which dataset was GustCast trained on?", "answerable": true, "gold_keywords": ["GustArchive-DE"], "evidence": ["P008:methods"], "type": "method", "id": "Q023"}
+{"question": "What limitation of GustCast do the authors report?", "answerable": true, "gold_keywords": ["complex terrain"], "evidence": ["P008:limitations"], "type": "limitation", "id": "Q024"}
+{"question": "Which dataset was used for glacier outline segmentation from multispectral satellite imagery?", "answerable": true, "gold_keywords": ["AlpineSat-12k"], "evidence": ["P001:methods"], "type": "method_by_task", "id": "Q025"}
+{"question": "What limitation is reported for glacier outline segmentation from multispectral satellite imagery?", "answerable": true, "gold_keywords": ["cloud cover"], "evidence": ["P001:limitations"], "type": "limitation_by_task", "id": "Q026"}
+{"question": "Which dataset was used for fast protein loop modeling?", "answerable": true, "gold_keywords": ["LoopBench"], "evidence": ["P002:methods"], "type": "method_by_task", "id": "Q027"}
+{"question": "What limitation is reported for fast protein loop modeling?", "answerable": true, "gold_keywords": ["20 residues"], "evidence": ["P002:limitations"], "type": "limitation_by_task", "id": "Q028"}
+{"question": "Which dataset was used for arrhythmia detection from single-lead ECG?", "answerable": true, "gold_keywords": ["HeartWave-5"], "evidence": ["P003:methods"], "type": "method_by_task", "id": "Q029"}
+{"question": "What limitation is reported for arrhythmia detection from single-lead ECG?", "answerable": true, "gold_keywords": ["single hospital"], "evidence": ["P003:limitations"], "type": "limitation_by_task", "id": "Q030"}
+{"question": "Which dataset was used for soil organic carbon prediction from spectra?", "answerable": true, "gold_keywords": ["SoilSpec-Europe"], "evidence": ["P004:methods"], "type": "method_by_task", "id": "Q031"}
+{"question": "What limitation is reported for soil organic carbon prediction from spectra?", "answerable": true, "gold_keywords": ["lab-dried"], "evidence": ["P004:limitations"], "type": "limitation_by_task", "id": "Q032"}
+{"question": "Which dataset was used for small-sample tabular classification?", "answerable": true, "gold_keywords": ["TabSmall-40"], "evidence": ["P005:methods"], "type": "method_by_task", "id": "Q033"}
+{"question": "What limitation is reported for small-sample tabular classification?", "answerable": true, "gold_keywords": ["cubically"], "evidence": ["P005:limitations"], "type": "limitation_by_task", "id": "Q034"}
+{"question": "Which dataset was used for coral bleaching detection in drone video?", "answerable": true, "gold_keywords": ["ReefDrone-3k"], "evidence": ["P006:methods"], "type": "method_by_task", "id": "Q035"}
+{"question": "What limitation is reported for coral bleaching detection in drone video?", "answerable": true, "gold_keywords": ["turbid"], "evidence": ["P006:limitations"], "type": "limitation_by_task", "id": "Q036"}
+{"question": "Which dataset was used for single-step retrosynthesis prediction?", "answerable": true, "gold_keywords": ["USPTO-Mini"], "evidence": ["P007:methods"], "type": "method_by_task", "id": "Q037"}
+{"question": "What limitation is reported for single-step retrosynthesis prediction?", "answerable": true, "gold_keywords": ["stereochemistry"], "evidence": ["P007:limitations"], "type": "limitation_by_task", "id": "Q038"}
+{"question": "Which dataset was used for wind gust nowcasting?", "answerable": true, "gold_keywords": ["GustArchive-DE"], "evidence": ["P008:methods"], "type": "method_by_task", "id": "Q039"}
+{"question": "What limitation is reported for wind gust nowcasting?", "answerable": true, "gold_keywords": ["complex terrain"], "evidence": ["P008:limitations"], "type": "limitation_by_task", "id": "Q040"}
+{"question": "What F1 score does OrbitalNet reach on the SkyMap dataset?", "answerable": false, "gold_keywords": [], "evidence": [], "type": "unanswerable", "id": "Q041"}
+{"question": "Which dataset was NeuroLens trained on?", "answerable": false, "gold_keywords": [], "evidence": [], "type": "unanswerable", "id": "Q042"}
+{"question": "What limitation of DeepGlacier do the authors report?", "answerable": false, "gold_keywords": [], "evidence": [], "type": "unanswerable", "id": "Q043"}
